@@ -8,3 +8,4 @@ plt.xlabel('Ages')
 plt.ylabel('Median salary')
 plt.title('Median Salary (USD) by Age')
 plt.show()
+
