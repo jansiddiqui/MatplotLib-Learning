@@ -13,7 +13,7 @@ js_dev_y = [41000, 43500, 46200, 48900, 51400, 54200, 57600, 60500, 63200, 65800
 plt.bar(x_indexes + width, js_dev_y, width = width, color="b", label="JavaScript Dev")
 
 plt.legend()
-
+plt.xticks(ticks=x_indexes, labels=ages_x)
 plt.title("Median Salary (USD) by Age")
 plt.xlabel("Age")
 plt.ylabel("Median Salary (USD)")
